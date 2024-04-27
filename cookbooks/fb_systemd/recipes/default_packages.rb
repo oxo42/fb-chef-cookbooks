@@ -45,6 +45,8 @@ when 'debian'
       systemd-coredump
     }
   end
+when 'arch'
+  return
 else
   fail 'fb_systemd is not supported on this platform.'
 end
